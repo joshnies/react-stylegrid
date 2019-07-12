@@ -7,4 +7,5 @@ export default styled.div`
     ${props => props.colSize || '1fr'}
   );
   grid-auto-rows: ${props => props.rowSize || 'auto'};
+  grid-row-gap: ${props => props.rowGap || 0};
 `;
